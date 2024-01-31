@@ -1,0 +1,22 @@
+
+{
+    "projects": [
+      {
+        "title": "Project 1",
+        "link": "project1.html",
+        "image": "images/cute.jpg"
+      },
+      
+      {
+        "title": "Project 2",
+        "link": "project2.html",
+        "image": "images/face.jpg"
+      },
+      
+      {
+        "title": "Project 3",
+        "link": "project3.html",
+        "image": "images/whitecat.jpg"
+      }
+    ]
+  }

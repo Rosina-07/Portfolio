@@ -1,0 +1,127 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(252, 241, 246, 0.982);
+}
+
+
+html {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.logopic {
+    width: 5%;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding: 1%;
+    width: 100%;
+}
+
+.home-cont {
+    padding-right: 2%;
+    display: flex;
+    gap: 15%;
+}
+
+.contactlinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.myname {
+    font-size:x-large;
+}
+
+.rosina {
+    display: flex;
+    width: 35%;
+}
+
+.about {
+    display: flex;
+    gap: 10%;
+    padding: 8%;
+    align-items:center;
+}
+
+.about-txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+footer {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: pink;
+    padding: 2%;
+}
+
+
+.project-t {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.projects {
+    display: flex;
+
+    padding: 3%;
+    
+    
+}
+
+.image {
+    border-radius: 3%;
+    margin-top: 2%;
+
+}
+
+.individualpro {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    align-items: center;
+    font-size: large;
+}
+
+.dropbtn {
+    text-decoration: underline;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.dropbtn:hover, .dropbtn:focus {
+    color: #e90eb6;
+  }
+  
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
