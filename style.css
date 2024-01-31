@@ -39,7 +39,7 @@ nav {
 }
 
 .myname {
-    font-size:x-large;
+    font-size: 300%;
 }
 
 .rosina {
@@ -50,14 +50,17 @@ nav {
 .about {
     display: flex;
     gap: 10%;
-    padding: 8%;
-    align-items:center;
+    align-items:flex-start;
+    padding: 5%;
+    padding-top: 9%;
 }
 
 .about-txt {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    gap: 50px;
+    padding-top: 8%;
+    font-size: 130%;
 }
 
 footer {
