@@ -2,12 +2,11 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-color: rgba(252, 241, 246, 0.982);
 }
 
 
 html {
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif; !important
     margin: 0%;
     padding: 0%;
     
@@ -15,6 +14,7 @@ html {
 
 .logopic {
     width: 5%;
+    padding: 0.5%;
 }
 
 nav {
@@ -22,9 +22,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: pink;
+    background-color: rgb(219, 208, 187); !important
     padding: 1%;
     width: 100%;
+    z-index: 2;
 }
 
 .home-cont {
@@ -38,13 +39,13 @@ nav {
     flex-direction: column;
 }
 
-.myname {
-    font-size: 300%;
-}
-
 .rosina {
     display: flex;
     width: 35%;
+}
+
+.myname {
+    font-size: xxx-large;
 }
 
 .about {
@@ -58,16 +59,20 @@ nav {
 .about-txt {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 60px;
     padding-top: 8%;
-    font-size: 130%;
+    
+}
+
+.about p {
+    font-size: larger;
 }
 
 footer {
     display: flex;
     justify-content:flex-end;
     align-items: center;
-    background-color: pink;
+    background-color:rgb(219, 208, 187);
     padding: 2%;
 }
 
@@ -106,18 +111,18 @@ footer {
     font-size: 16px;
     border: none;
     cursor: pointer;
-  }
+}
   
 .dropbtn:hover, .dropbtn:focus {
-    color: #e90eb6;
-  }
+    color: #dc5727;
+}
   
   
 .dropdown {
     position: relative;
     display: inline-block;
-  }
 
+}
 
 .dropdown-content {
     display: none;
@@ -126,5 +131,43 @@ footer {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
-  
+}
+
+.projectcontent {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+}
+
+.projectcontent h1 {
+    font-size: xx-large;
+    margin: auto;
+    padding: 4% 0%;
+    text-decoration: underline;
+}
+
+.projectcontent img {
+    width: 600px;
+    height: 400px;
+    float: left;
+    background-size: cover;
+
+}
+
+.projectcontent div {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+.projectcontent p {
+    font-size: larger;
+    padding: 4%;
+}
+
+.projectcontent a {
+    font-size: larger;
+    color: #dc5727;
+    text-decoration: underline;
+    padding-left: 4%;
+}
