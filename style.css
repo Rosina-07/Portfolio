@@ -6,7 +6,7 @@ body {
 
 
 html {
-    font-family:'Times New Roman', Times, serif; !important
+    font-family:'Times New Roman', Times, serif !important;
     margin: 0%;
     padding: 0%;
     
@@ -22,21 +22,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(219, 208, 187); !important
+    background-color: rgb(219, 208, 187);
     padding: 1%;
     width: 100%;
     z-index: 2;
+    overflow: hidden;
 }
 
 .home-cont {
-    padding-right: 2%;
+    padding-right: 4%;
     display: flex;
     gap: 15%;
-}
-
-.contactlinks {
-    display: flex;
-    flex-direction: column;
 }
 
 .rosina {
@@ -149,9 +145,6 @@ footer {
 .projectcontent img {
     width: 600px;
     height: 400px;
-    float: left;
-    background-size: cover;
-
 }
 
 .projectcontent div {
@@ -171,3 +164,68 @@ footer {
     text-decoration: underline;
     padding-left: 4%;
 }
+
+@media screen and (max-width: 1000px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rosina {
+        width: 60%;
+        height: 80%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .projectcontent div {
+        width: 550px;
+        margin: auto;
+        gap: 30px;
+    }
+
+    .projectcontent h1 {
+        padding-right: 4%;
+    }
+
+    .projectcontent img {
+        height: 300px;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+    .projectcontent div {
+        width: 400px;
+        margin: auto;
+        gap: 30px;
+    }
+
+    .projectcontent h1 {
+        padding-right: 4%;
+    }
+
+    .projectcontent img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .projectcontent div {
+        flex-wrap: wrap;
+        width: 400px;
+        margin: auto;
+        gap: 30px;
+    }
+
+    .projectcontent img {
+        height: 250px;
+    }
+}
+    
