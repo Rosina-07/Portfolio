@@ -232,7 +232,7 @@ footer {
 
 }
 
-* {
+ { 
     box-sizing: border-box;
   }
   
@@ -245,17 +245,28 @@ footer {
     margin-bottom: 16px;
     resize: vertical;
   }
+
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #9c9582;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ecd789;
+    color: black;
   }
   
   /* Style the container/contact section */
@@ -273,10 +284,6 @@ footer {
     width: 50%;
     margin-top: 6px;
     padding: 20px;
-  }
-
-  .column.input {
-    margin-top: 3%;
   }
   
   /* Clear floats after the columns */
@@ -297,5 +304,5 @@ footer {
       width: 100%;
       margin-top: 0;
     }
-  }
-    
+
+  }   
