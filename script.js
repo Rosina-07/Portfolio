@@ -15,12 +15,6 @@ fetch('data.json').then(function (response) {
 // HAVE TO MKAE IF STATEMNT TO PROJECTS ADDED TO JASON ARE NOT ADDED HORIZONTALLY
 
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("dropdown-content");
-  }
-
-
-
 
 //`<h2><a href="${project.link}">${project.title}</a></h2>
   //  <a class="project-img" href="${project.link}"><img src="${project.image}"></img></a>`
